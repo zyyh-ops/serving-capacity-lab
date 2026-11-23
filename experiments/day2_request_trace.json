@@ -1,0 +1,76 @@
+{
+  "environment": {
+    "model": "Qwen/Qwen3-0.6B",
+    "api": "http://127.0.0.1:8000/v1/chat/completions",
+    "temperature": 0,
+    "max_tokens": 96
+  },
+  "single_non_stream": {
+    "request_id": "chatcmpl-439d324ff00645399e74e992aaceabef",
+    "mode": "non_stream",
+    "elapsed_s": 3.7687475979328156,
+    "finish_reason": "stop",
+    "content": "连续批处理（Batch Processing）是指将一组连续的数据或任务一次性处理，而不是逐个处理。这种方式通常用于处理大量数据或任务，提高效率和资源利用率。",
+    "usage": {
+      "prompt_tokens": 21,
+      "total_tokens": 59,
+      "completion_tokens": 38,
+      "prompt_tokens_details": null
+    }
+  },
+  "single_stream": {
+    "request_id": "chatcmpl-1c8510fdb26f42d28873e9b18ccce1bc",
+    "mode": "stream",
+    "elapsed_s": 0.2290046066045761,
+    "time_to_first_content_s": 0.07559332251548767,
+    "content_events": 37,
+    "finish_reason": "stop",
+    "content": "连续批处理（Batch Processing）是指将一组连续的数据或任务一次性处理，而不是逐个处理。这种方式通常用于处理大量数据或任务，提高效率和资源利用率。"
+  },
+  "concurrent": [
+    {
+      "request_id": "chatcmpl-3bc014a45ea449f0a7bfb64d4a0e3304",
+      "mode": "non_stream",
+      "elapsed_s": 0.4963420629501343,
+      "finish_reason": "length",
+      "content": "在通信或数据处理领域，“**Prefill**” 和 “**Decode**” 是两个常见的术语，它们通常用于数据处理、编码或解码过程中。它们的区别主要在于功能和应用场景。\n\n---\n\n### 1. **Prefill（预填充）**\n- **定义**：**Prefill** 是指在数据传输或处理过程中，预先填充或初始化某些数据，以加快后续处理或解码的速度。\n- **应用场景**：\n ",
+      "usage": {
+        "prompt_tokens": 20,
+        "total_tokens": 116,
+        "completion_tokens": 96,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "chatcmpl-0283d5995c0d419c92ad3f0f3d530fa4",
+      "mode": "non_stream",
+      "elapsed_s": 0.4957539737224579,
+      "finish_reason": "length",
+      "content": "KV Cache（Key-Value Cache）的作用是**缓存键值对数据**，以提高数据访问效率和系统性能。它通常用于存储和检索数据时，减少重复计算和频繁访问的开销。\n\n### 1. **缓存数据**\n   - KV Cache 用于存储和检索键值对数据，例如在数据库、缓存系统（如 Redis）或分布式系统中。\n   - 通过缓存，可以快速访问",
+      "usage": {
+        "prompt_tokens": 18,
+        "total_tokens": 114,
+        "completion_tokens": 96,
+        "prompt_tokens_details": null
+      }
+    },
+    {
+      "request_id": "chatcmpl-bea2fa1a01bd4309b5192dd1d17d53a8",
+      "mode": "non_stream",
+      "elapsed_s": 0.47683797776699066,
+      "finish_reason": "length",
+      "content": "**Continuous Batching** 是一种在机器学习中用于优化训练过程的策略，尤其在处理大规模数据集时非常常见。它的核心思想是**在训练过程中动态地调整数据的批次大小**，而不是固定地将数据分成固定数量的批次。\n\n### 什么是 Continuous Batching？\nContinuous Batching（连续批处理）是指在训练过程中，根据当前的模型状态和数据分布，动态地决定当前批次的大小。例如，当",
+      "usage": {
+        "prompt_tokens": 18,
+        "total_tokens": 114,
+        "completion_tokens": 96,
+        "prompt_tokens_details": null
+      }
+    }
+  ],
+  "checks": {
+    "unique_concurrent_request_ids": true,
+    "non_empty_outputs": true,
+    "streaming_received": true
+  }
+}
